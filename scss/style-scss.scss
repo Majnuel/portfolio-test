@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    // font-family: 'BioRhyme', serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #511845;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+        text-decoration: none;
+        padding-right: 30px;
+        font-size: 1.5rem;
+    }
+}
+
+hr {
+    padding-top: 50px;
+    border-top: 0px;
+    margin: 0px;
+    // color: black;
+}
+
+h1 {
+    font-size: 6rem;
+    color: rgb(197, 172, 172);
+    margin-bottom: 0px;
+    font-family: "Biorhyme";
+}
+
+h2 {
+    color: hsla(178, 10%, 13%, 1);
+    font-weight: 300;
+}
+
+h3 {
+    color: hsla(178, 10%, 13%, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: #900c3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background-color: #c70039;
+    a {
+        color: hsla(178, 10%, 13%, 1);
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+}
+
+#contact {
+    height: 200px;
+    background-color: #ff5733;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.drum-kit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: auto;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+}
+
+.etch-a-sketch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        img {
+            width: auto;
+            height: 150px;
+            border-radius: 10px;
+        }
+}
+
+.rock-paper-scissors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        img {
+            width: auto;
+            height: 150px;
+            border-radius: 10px;
+        }
+}
+
+@media (max-width: 890px) {
+    #projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        padding: 15px 0px 15px 0px;
+        a {
+            padding-bottom: 40px;
+        }
+    }
+    h1 {
+        font-size: 4rem;
+        color: rgb(197, 172, 172);
+        margin-bottom: 0px;
+        font-family: "Biorhyme";
+    }
+}
